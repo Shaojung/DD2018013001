@@ -40,7 +40,7 @@ class MyListener implements LocationListener {
 
     @Override
     public void onLocationChanged(Location location) {
-        Log.d("LOC", "Change!!");
+        Log.d("LOC", "Change!! " + location.getLatitude() + "," + location.getLongitude());
     }
 
     @Override
